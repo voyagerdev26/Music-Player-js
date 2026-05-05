@@ -200,6 +200,8 @@ song.addEventListener("timeupdate", () => {
 song.addEventListener("ended",()=>{
   ctrlIcon.classList.remove("fa-pause");
   ctrlIcon.classList.add("fa-play");
+  setTimeout(()=>{nextSong()},2000);
+  
   
 })
 
