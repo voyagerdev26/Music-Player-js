@@ -43,12 +43,12 @@ let songs = [
     src: "Media/ChalaJataHun.mp3",
     img: "Media/thumb5.jpg"
   },
-  // {
-  //   title: "Grateful",
-  //   artist: "NEFFEX",
-  //   src: "Media/grateful.mp3",
-  //   img: "Media/thumb3.jpg"
-  // }
+  {
+    title: "Grateful",
+    artist: "NEFFEX",
+    src: "Media/grateful.mp3",
+    img: "Media/thumb6.jpg"
+  }
 ];
 let currentSongIndex=0;
 
