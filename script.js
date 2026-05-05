@@ -48,6 +48,36 @@ let songs = [
     artist: "NEFFEX",
     src: "Media/grateful.mp3",
     img: "Media/thumb6.jpg"
+  },
+  {
+    title: "Look Mom",
+    artist: "NEFFEX",
+    src: "Media/LookMom.mp3",
+    img: "Media/thumb7.jpg"
+  },
+  {
+    title: "Waka Waka",
+    artist: "Shakira",
+    src: "Media/WakaWaka.mp3",
+    img: "Media/thumb8.jpg"
+  },
+  {
+    title: "Faded",
+    artist: "Alan Walker",
+    src: "Media/Faded.mp3",
+    img: "Media/thumb9.jpg"
+  },
+  {
+    title: "Babam Bam",
+    artist: "Paradox",
+    src: "Media/BabamBam.mp3",
+    img: "Media/thumb10.jpg"
+  },
+  {
+    title: "Sapphire",
+    artist: "Ed Sheeran",
+    src: "Media/Sapphire.mp3",
+    img: "Media/thumb11.jpg"
   }
 ];
 let currentSongIndex=0;
