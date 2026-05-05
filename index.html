@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="https://kit.fontawesome.com/64faf1e3b6.js" crossorigin="anonymous"></script> -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="music-player">
+
+      <nav>
+        <div class="circle">
+          <i class="fa-solid fa-angle-left"></i>
+        </div>
+        <div class="circle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+
+      <img src="" class="song-img" alt="song-img">
+
+      <h1 id="title"></h1>
+      <p id="artist"></p>
+
+      <audio  id="song">  
+        <!-- <source src="Media/Go! - NEFFEX.mp3" type="audio/mpeg"> --> <!--now js fully controls audio-->
+      </audio>
+      <input type="range" value="0" id="progress" step="0.01">
+
+      <div class="controls">
+        <div onclick="prevSong()"><i class="fa-solid fa-backward"></i></div>
+        <div onclick="togglePlay()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+        <div onclick="nextSong()"><i class="fa-solid fa-forward"></i></div>
+      </div>
+
+
+      <div class="playlist" id="playlist">
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="./script.js"></script>
+</body>
+</html>
